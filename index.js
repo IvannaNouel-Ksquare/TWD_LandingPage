@@ -54,12 +54,13 @@ let modalFooter = document.querySelector('.modal-footer');
 let eventModal = document.querySelector('.event-modal');
 const loadModal = (eventIdx) => {
   const event = events[eventIdx];
+  const numEvent = parseInt(eventIdx) + 1;
   let pHeader = document.createElement('p');
-  pHeader.innerText = event.title;
+  pHeader.innerText = `Attend event ${numEvent}`;
   modalHeader.innerHTML = pHeader.outerHTML;
 
   let pPresenter = document.createElement('p');
-  pPresenter.innerText = `Presenter: ${event.presenter}`;
+  pPresenter.innerText = `${event.title}`;
   modalBody.innerHTML = pPresenter.outerHTML;
 
   let pTime = document.createElement('p');
