@@ -1,19 +1,3 @@
-let imgZombie = document.querySelector('.img-zombie');
-setTimeout(() => {
-  divZombie.style.backgroundColor = 'rgba(199,85,85, 0.3)';
-  divZombie.style.backgroundImage = 'url(/images/blood.png)';
-  imgZombie.style.transform = 'scale(1)';
-}, 400);
-
-let divZombie = document.querySelector('.div-zombie');
-divZombie.addEventListener('click', () => {
-  divZombie.style.background = 'none';
-  imgZombie.style.transform = 'scale(0)';
-  let audio = new Audio('sound/TWDOriginalSoundtrack.mp3');
-  audio.volume = 0.5;
-  audio.play();
-});
-
 let events = [
   {
     title: 'Opening time',
@@ -83,3 +67,28 @@ window.onclick = function (event) {
     eventModal.style.display = 'none';
   }
 };
+
+(function (nav) {
+  nav(document).ready(function () {
+    nav(".navbar").hide();
+
+    nav(function () {
+      nav(window).scroll(function () {
+        if (nav(this).scrollTop() > 100) {
+          nav('.navbar').fadeIn();
+        } else {
+          nav('.navbar').fadeOut();
+        }
+      });
+    });
+
+  });
+}(jQuery));
+
+let audio = new Audio('sound/TWDOriginalSoundtrack.mp3');
+audio.volume = 0.5;
+
+document.body.addEventListener("mousemove", function () {
+  audio.play()
+
+})
