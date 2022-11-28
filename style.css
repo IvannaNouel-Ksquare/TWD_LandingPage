@@ -60,7 +60,7 @@ body {
 }
 .container-section-2 {
   background-color: #333;
-  background-image: url(/images/twd_folder.png);
+  background-image: url(images/twd_folder.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -82,7 +82,7 @@ body {
   padding: 0 10%;
 }
 .event {
-  background-image: url(/images/folder_blood.png);
+  background-image: url(images/folder_blood.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -109,7 +109,35 @@ body {
   /* bottom: 100px; */
 }
 .modal-content {
-  width: 40%;
+  width: 30%;
+  border-radius: 0 !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-position: center;
+  background-image: url(images/blood.png) !important;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.modal-header,
+.modal-body,
+.modal-footer {
+  border: none !important;
+}
+.modal-body {
+  text-align: center;
+  font-size: 25px;
+}
+.modal-footer {
+  font-size: 25px;
+}
+.events-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: black;
+  padding: 10px;
 }
 @media screen and (min-width: 800px) {
   .container-events-1,
