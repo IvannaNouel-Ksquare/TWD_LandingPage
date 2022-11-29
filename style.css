@@ -123,13 +123,11 @@ html {
   padding: 10px;
 }
 
-
 .container-section-3 {
   background-repeat: no-repeat;
   background-image: url(images/blood.png); 
-  background-size: 55%;
+  background-size: 38%;
   background-position: center;
-  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -224,10 +222,8 @@ html {
   .container-events-2 {
     padding-top: 0%;
   }
-  .event {
-    height: 200px;
+  .event:hover{
     cursor: pointer;
-
   }
 }
 
