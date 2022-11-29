@@ -138,6 +138,63 @@ body {
   background-color: black;
   padding: 10px;
 }
+
+
+.container-section-3 {
+  background-color: #333; 
+  background-repeat: no-repeat;
+  background-image: url(images/blood.png); 
+  background-size: 65%;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  position: relative;
+}
+
+.container-section-3 img{
+  position: absolute;
+  right: -70px;
+  bottom: -30px;
+  width: 40%;
+  opacity: 0.85;  
+}
+
+.contact-title {
+  color: white;
+  font-size: 90px;
+  font-weight: bolder; 
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.contact-txt {
+  color: white;
+  font-size: 40px;
+  font-weight:lighter;  
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.btn-contact{
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 40px;
+  font-weight: bolder; 
+  padding: 10px;
+  width: 130vh;
+  border-radius: 5px;
+  border-color: white;
+
+}
+
+
 @media screen and (min-width: 800px) {
   .container-events-1,
   .container-events-2 {
