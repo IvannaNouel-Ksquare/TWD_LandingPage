@@ -1,109 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>The Walking Dead</title>
-  </head>
-  <body>
-    <audio src="sound/TWDOriginalSoundtrack.mp3" autoplay="true"
-    muted="muted"></audio>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <img src="images/logo.png" alt="logo" height="36" />
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#meet">Meet the team</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Main- container -->
-    <div class="main-container">
-      <!-- section-1-container -->
-      <div class="container-section-1" id="home">
-        <img
-          class="mainimg"
-          src="images/image1.jpeg"
-          alt="picture of The Walking Dead crew"
-        />
-        <!-- section-1-main-texts-container -->
-        <div class="main-texts">
-          <h1 class="main-big-text">The most important event</h1>
-          <h3 class="main-medium-text">
-            California, November 30th 2022, 11:00 A.M
-          </h3>
-        </div>
-        <div class="div-zombie">
-          <img src="images/zombie.png" alt="zombie" class="img-zombie" />
-        </div>
-      </div>
-      <!-- section-2-container -->
-      <div class="container-section-2" id="events">
-        <div class="event-modal">
-          <div class="modal-content">
-            <div class="modal-header"></div>
-            <div class="modal-body"></div>
-            <div class="modal-footer"></div>
-          </div>
-        </div>
+  <title>The Walking Dead</title>
+</head>
 
-        <div class="container-events-1">
-          <div class="event" data-event-idx="0">
-            <p>Opening time 11:00</p>
-          </div>
-          <div class="event" data-event-idx="1">
-            <p>Q&A with the cast 12:00</p>
-          </div>
-          <div class="event" data-event-idx="2">
-            <p>Behind the scenes highlight 14:00</p>
-          </div>
-        </div>
-        <div class="container-events-2">
-          <div class="event" data-event-idx="3">
-            <p>Q&A with the creators of the show 16:00</p>
-          </div>
-          <div class="event" data-event-idx="4">
-            <p>Never shown before material 17:00</p>
-          </div>
-          <div class="event" data-event-idx="5">
-            <p>Closing ceremony 18:00</p>
-          </div>
-        </div>
+<body>
+  <audio src="sound/TWDOriginalSoundtrack.mp3" autoplay="true" muted="muted"></audio>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="images/logo.png" alt="logo" height="36" />
       </div>
-      <!-- section-3-container -->
-      <div class="container-section-3" id="contact">
-        <div class="contact-title">
-          Do you want more information?
-        </div>
-        <div class="contact-txt">
-          The scope the Social Media becomes crucial Is helps the <br>
-          business to directly engage with their needs and wants.
-        </div>
-        <img
-          src="images/zombie.png"
-          alt="Zoombiewithblood"
-        />
-        
-        <a class="btn-contact" href="https://mys2qmukcj6.typeform.com/to/baEyLwvH" >Contact us</a>
-      </div>
-      <!-- section 4 - container-->
-      <div class="container-section-4" id="meet"></div>
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#meet">Meet the team</a></li>
+      </ul>
     </div>
-    <script src="index.js"></script>
-  </body>
+  </nav>
+  <!-- Main- container -->
+  <div class="main-container">
+    <!-- section-1-container -->
+    <div class="container-section-1" id="home">
+      <img class="mainimg" src="images/image1.jpeg" alt="picture of The Walking Dead crew" />
+      <!-- section-1-main-texts-container -->
+      <div class="main-texts">
+        <h1 class="main-big-text">The most important event</h1>
+        <h3 class="main-medium-text">
+         Los Angeles Convention Center, December 12, 2022, 11:00 A.M
+        </h3>
+        <button class="location" onclick="window.open('https://goo.gl/maps/HJVVFvazbs7MkdP17', '_blank')"><span>Event Location</span></button>
+      </div>
+    </div>
+    <!-- section-2-container -->
+    <div class="container-section-2" id="events">
+      <div class="event-modal">
+        <div class="modal-content">
+          <div class="modal-header"></div>
+          <div class="modal-body"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+      <div class="container-events-1">
+        <div class="event" data-event-idx="0">
+          <p>Opening time 11:00</p>
+        </div>
+        <div class="event" data-event-idx="1">
+          <p>Q&A with the cast 12:00</p>
+        </div>
+        <div class="event" data-event-idx="2">
+          <p>Behind the scenes highlight 14:00</p>
+        </div>
+      </div>
+      <div class="container-events-2">
+        <div class="event" data-event-idx="3">
+          <p>Q&A with the creators of the show 16:00</p>
+        </div>
+        <div class="event" data-event-idx="4">
+          <p>Never shown before material 17:00</p>
+        </div>
+        <div class="event" data-event-idx="5">
+          <p>Closing ceremony 18:00</p>
+        </div>
+      </div>
+    </div>
+    <!-- section-3-container -->
+    <div class="container-section-3" id="contact">
+      <div class="contact-title">
+        Do you want more information?
+      </div>
+      <div class="contact-txt">
+        The scope the Social Media becomes crucial Is helps the <br>
+        business to directly engage with their needs and wants.
+      </div>
+      <a class="btn-contact" href="https://mys2qmukcj6.typeform.com/to/baEyLwvH">Contact us</a>
+    </div>
+    <!-- section 4 - container-->
+    <div class="container-section-4" id="meet"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
