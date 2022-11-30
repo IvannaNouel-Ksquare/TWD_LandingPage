@@ -243,11 +243,13 @@ html {
 }
 
 tt{
-  font-weight: normal;
+  font-weight: bolder;
   font-size: 70px;
   position: relative;
   margin: 40px 0;
   color: rgb(109, 20, 20);
+  text-shadow: 2px 2px 3px rgb(98, 48, 48);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 tt::before{
@@ -278,7 +280,7 @@ tt::before{
 
 .top-content{
   background-color: #555555;
-  width: 880px;
+  width: 900px;
   margin: 0 auto 20px auto;
   height: 60px;
   display: flex;
@@ -294,7 +296,7 @@ ss{
   line-height: 60px;
   padding: 0 50px;
   color: rgb(109, 20, 20);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -305,7 +307,7 @@ ss{
   margin: 0 30px;
   line-height: 60px;
   font-size: 20px;
-  color:rgb(192, 192, 192);
+  color:rgb(255, 255, 255);
   cursor: pointer;
   transition: .5s;
 }
@@ -315,7 +317,7 @@ label:hover{
 }
 
 .photo-gallery{
-  width: 900px;
+  width: 909px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
