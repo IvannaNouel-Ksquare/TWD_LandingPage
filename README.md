@@ -14,6 +14,6 @@ Landing page for showing information about "The Walking Dead" event, including d
 
 Review the live demo [live demo](https://ivannanouel-ksquare.github.io/TWD_LandingPage/)
 
-Technical Documentation:[Documentation](https://stripe-burst-832.notion.site/Technical-documentation-f233c66d281642a287942321b986ecef)
+[Technical Documentation](https://stripe-burst-832.notion.site/Technical-documentation-f233c66d281642a287942321b986ecef)
 
-User Manual:[Documentation] (https://www.notion.so/Landing-Page-The-Walking-Dead-1d4b19ca66b345c99b20d258cc91722e)
+[User Manual](https://www.notion.so/Landing-Page-The-Walking-Dead-1d4b19ca66b345c99b20d258cc91722e)
